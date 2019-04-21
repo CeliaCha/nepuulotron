@@ -1,0 +1,24 @@
+[
+    {
+      "field": "frenchVersion",
+      "label": "VF",
+      "sortable": true
+    },
+    {
+      "field": "engVersion",
+      "label": "VO",
+      "sortable": true
+    },
+    {
+      "field": "engPages",
+      "label": "Pages VO",
+      "numeric": true,
+      "sortable": true
+    },
+    {
+      "field": "frenchPages",
+      "label": "Pages VF",
+      "numeric": true,
+      "sortable": true
+    }
+  ]
