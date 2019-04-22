@@ -2,10 +2,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-const swName = `service-worker.js`
+const swName = 'service-worker.js'
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
-    navigator.serviceWorker.register('service-worker.js').then(function (registration) {
+    navigator.serviceWorker.register(swName).then(function (registration) {
       // Registration was successful
       console.log('Enregistrement du service worker')
     }, function (err) {
