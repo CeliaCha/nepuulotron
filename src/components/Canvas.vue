@@ -11,13 +11,15 @@
 
 <script>
 import filePdf from '../data/PlayersGuide_compressed.pdf'
+import pdfjs from 'pdfjs-dist'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.worker.js`
 
 export default {
   props: [ 'currentPage' ],
   data () {
     return {
       pdf: null,
-      zoom: 1,
+      zoom: 1.4,
       canvas: {
         context: null
       }
@@ -25,7 +27,7 @@ export default {
   },
   created () {
     // eslint-disable-next-line no-undef
-    pdfjsLib.getDocument(filePdf)
+    pdfjs.getDocument(filePdf)
       .then(pdf => {
         this.pdf = pdf
       })
