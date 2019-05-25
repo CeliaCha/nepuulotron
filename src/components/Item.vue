@@ -1,6 +1,7 @@
 <template>
     <div>
-       {{data.french}} {{data.frenchPages}} {{data.eng}} {{data.engPages}}
+       <!-- {{data.french}} {{data.frenchPages}} {{data.eng}} {{data.engPages}} -->
+       blabla
     </div>
 </template>
 
