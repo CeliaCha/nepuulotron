@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="canvas_container" v-if="!filePdf">
+    <div id="canvas_container" v-show="!filePdf">
       Loading
     </div>
     <div id="canvas_container">
@@ -19,12 +19,16 @@ export default {
     return {
       filePdf: null,
       zoom: 1.4,
-      canvasContext: null
+      canvasContext: null,
+      numPages: 0
     }
   },
   created () {
     // eslint-disable-next-line no-undef
-    pdfjs.getDocument(filePdf).then(file => { this.filePdf = file }).catch(error => console.log(error))
+    pdfjs.getDocument(filePdf).then(file => {
+      this.filePdf = file
+      this.numPages = file.numPages
+    }).catch(error => console.log(error))
   },
   mounted () {
     this.canvasContext = this.$refs['pdf_renderer'].getContext('2d')
@@ -35,6 +39,7 @@ export default {
   watch: {
     filePdf: function () { this.renderPdf() },
     currentPage: function () { this.renderPdf() },
+    numPages: function (event) { this.$emit('getNumPages', this.numPages) },
   },
   methods: {
     renderPdf () {

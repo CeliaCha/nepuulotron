@@ -12,7 +12,7 @@
     <div v-for="item in filteredList" :key="item.french">
       <Item :data="item"/>
     </div> -->
-    <Canvas :currentPage="currentPage"/>
+    <Canvas :currentPage="currentPage" v-on:getNumPages="setNumPages"/>
 
   </div>
 </template>
@@ -30,7 +30,9 @@ export default {
       msg: 'Welcome to the Nepuulotron !',
       list: list,
       search: '',
-      currentPage: 68,
+      numPages: 0,
+      currentPage: 1,
+
     }
   },
   created () {
@@ -44,6 +46,10 @@ export default {
     }
   },
   methods: {
+    setNumPages (numPages) {
+      this.numPages = numPages
+      console.log('Nombres de pages : ' + numPages)
+    }
   }
 }
 </script>
