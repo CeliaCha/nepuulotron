@@ -44,6 +44,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "sw-precache": {
-    "maximumFileSizeToCacheInBytes": 100485760
+    "maximumFileSizeToCacheInBytes": 100485760,
+    "verbose": true
   }
 }

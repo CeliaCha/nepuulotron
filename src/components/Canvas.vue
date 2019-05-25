@@ -15,49 +15,41 @@ import pdfjs from 'pdfjs-dist'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.worker.js`
 
 export default {
-  props: [ 'currentPage' ],
   data () {
     return {
-      pdf: null,
+      file: null,
       zoom: 1.4,
-      canvas: {
-        context: null
-      }
+      canvasContext: null
     }
   },
   created () {
     // eslint-disable-next-line no-undef
-    pdfjs.getDocument(filePdf)
-      .then(pdf => {
-        this.pdf = pdf
-      })
+    pdfjs.getDocument(filePdf).then(file => { this.file = file })
   },
   mounted () {
     this.canvas.context = this.$refs['pdf_renderer'].getContext('2d')
   },
+  props: [
+    'currentPage'
+  ],
   watch: {
-    pdf: function () {
-      this.renderPdfPage()
-    },
-    currentPage: function () {
-      this.renderPdfPage()
-    }
+    pdf: this.renderPdf(),
+    currentPage: this.renderPdf()
   },
   methods: {
-    renderPdfPage () {
-      this.pdf.getPage(this.currentPage)
+    renderPdf () {
+      this.file.getPage(this.currentPage)
         .then(page => {
           let viewport = page.getViewport(this.zoom)
           this.$refs['pdf_renderer'].width = viewport.width
           this.$refs['pdf_renderer'].height = viewport.height
           page.render({
-            canvasContext: this.canvas.context,
+            canvasContext: this.canvasContext,
             viewport: viewport
           })
         })
     }
   }
-
 }
 </script>
 
