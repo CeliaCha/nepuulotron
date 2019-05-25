@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div id="canvas_container" v-show="!pdf">
+    <div id="canvas_container" v-if="!filePdf">
       Loading
     </div>
-    <div id="canvas_container" v-show="pdf">
+    <div id="canvas_container">
       <canvas ref="pdf_renderer"></canvas>
     </div>
   </div>
@@ -17,28 +17,28 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/2
 export default {
   data () {
     return {
-      file: null,
+      filePdf: null,
       zoom: 1.4,
       canvasContext: null
     }
   },
   created () {
     // eslint-disable-next-line no-undef
-    pdfjs.getDocument(filePdf).then(file => { this.file = file })
+    pdfjs.getDocument(filePdf).then(file => { this.filePdf = file }).catch(error => console.log(error))
   },
   mounted () {
-    this.canvas.context = this.$refs['pdf_renderer'].getContext('2d')
+    this.canvasContext = this.$refs['pdf_renderer'].getContext('2d')
   },
   props: [
     'currentPage'
   ],
   watch: {
-    pdf: this.renderPdf(),
-    currentPage: this.renderPdf()
+    filePdf: function () { this.renderPdf() },
+    currentPage: function () { this.renderPdf() },
   },
   methods: {
     renderPdf () {
-      this.file.getPage(this.currentPage)
+      this.filePdf.getPage(this.currentPage)
         .then(page => {
           let viewport = page.getViewport(this.zoom)
           this.$refs['pdf_renderer'].width = viewport.width
