@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>{{ msg }}</h1>
+    <h1>NEPUULOTRON</h1>
     <input v-model.number="currentPage" type="number" step="1"/>
 
     <!-- <input v-model="search" type="text" />
@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import list from './data/list.json'
+import data from './data/list.json'
 import Item from './components/Item'
 import Canvas from './components/Canvas'
 
@@ -23,16 +23,20 @@ export default {
   components: { Canvas, Item },
   data () {
     return {
-      msg: 'Welcome to the Nepuulotron !',
-      list: list,
+      msg: 'Nepuulotron !',
+      data: data,
       search: '',
       numPages: 0,
       currentPage: 3,
     }
   },
-  created () {
+  mounted () {
+    console.log(this.index)
   },
   computed: {
+    index () {
+      return this.data.map(item => item.eng).concat(this.data.map(item => item.french))
+    },
     filteredList () {
       return this.list.filter(item => {
         const concat = (item.french + item.eng).toLowerCase()
