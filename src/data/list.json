@@ -117,7 +117,7 @@
       "french": "Art de la disparition",
       "frenchPages": "108",
       "eng": "Art of Disappearing (Hobbit)",
-      "engPages": "108-109"
+      "engPages": "108"
     },
     {
       "french": "Attaque en rotation",
@@ -135,13 +135,13 @@
       "french": "Attaque supplémentaire",
       "frenchPages": "78",
       "eng": "Extra Attack (Slayer, Wanderer, Warden, Warrior)",
-      "engPages": "73,83, 90, 93"
+      "engPages": "73, 83, 90, 93"
     },
     {
       "french": "Attitudes culturelles",
       "frenchPages": "192",
       "eng": "Cultural Attitudes",
-      "engPages": "192-194"
+      "engPages": "192"
     },
     {
       "french": "Attrait des Secrets",
@@ -183,7 +183,7 @@
       "french": "Aventurier Malgré Lui",
       "frenchPages": "121",
       "eng": "Reluctant Adventurer",
-      "engPages": "138-140"
+      "engPages": "138"
     },
     {
       "french": "Avide",
@@ -195,7 +195,7 @@
       "french": "Bardides",
       "frenchPages": "12",
       "eng": "Bardings",
-      "engPages": "12, 32-33"
+      "engPages": "12, 32"
     },
     {
       "french": "Bénédiction du Chasseur",
@@ -207,7 +207,7 @@
       "french": "Beornides",
       "frenchPages": "13",
       "eng": "Beornings",
-      "engPages": "13, 34-35"
+      "engPages": "13, 34"
     },
     {
       "french": "Bienvenu",
@@ -253,15 +253,15 @@
     },
     {
       "french": "Bouton Royal",
-      "frenchPages": "73,154",
+      "frenchPages": "73, 154",
       "eng": "Kingcup",
-      "engPages": "67,155"
+      "engPages": "67, 155"
     },
     {
       "french": "Bravoure du désespoir",
       "frenchPages": "110",
       "eng": "Desperate Courage (Bree-man)",
-      "engPages": "109-110"
+      "engPages": "109"
     },
     {
       "french": "Brume noire",
@@ -333,7 +333,7 @@
       "french": "Chasseur de Bêtes",
       "frenchPages": "91",
       "eng": "Hunter of Beasts (Wanderer)",
-      "engPages": "84-85"
+      "engPages": "84"
     },
     {
       "french": "Chasseur de trésors",
@@ -393,7 +393,7 @@
       "french": "Conseiller",
       "frenchPages": "85",
       "eng": "Counsellor (Warden)",
-      "engPages": "88-89"
+      "engPages": "88"
     },
     {
       "french": "Cor de Minas Anor",
@@ -429,7 +429,7 @@
       "french": "Crises de Folie",
       "frenchPages": "183",
       "eng": "Bouts of Madness",
-      "engPages": "183-184"
+      "engPages": "183"
     },
     {
       "french": "Curiosité insatiable",
@@ -447,7 +447,7 @@
       "french": "Découvreur",
       "frenchPages": "123",
       "eng": "Seeker of the Lost",
-      "engPages": "140-141"
+      "engPages": "140"
     },
     {
       "french": "Défaut de la cuirasse",
@@ -561,7 +561,7 @@
       "french": "Duel",
       "frenchPages": "77, 80, 90",
       "eng": "Duelling (Warrior, Wanderer)",
-      "engPages": "77,91"
+      "engPages": "77, 91"
     },
     {
       "french": "Éclaireur",
@@ -591,7 +591,7 @@
       "french": "Émissaire de votre Peuple",
       "frenchPages": "125",
       "eng": "Emissary of your People",
-      "engPages": "126-127"
+      "engPages": "126"
     },
     {
       "french": "Ennemi de l'Ennemi",
@@ -673,9 +673,9 @@
     },
     {
       "french": "Esquive instinctive",
-      "frenchPages": "65,92",
+      "frenchPages": "65, 92",
       "eng": "Uncanny Dodge (Treasure Hunter, Wanderer)",
-      "engPages": "78,85"
+      "engPages": "78, 85"
     },
     {
       "french": "Etablir un sanctuaire",
@@ -687,7 +687,7 @@
       "french": "Etoile des Dunedain",
       "frenchPages": "158",
       "eng": "Star of the Dunedain (Dunedain)",
-      "engPages": "157-158"
+      "engPages": "157"
     },
     {
       "french": "Expert",
@@ -699,7 +699,7 @@
       "french": "Expression de Protecteur",
       "frenchPages": "84",
       "eng": "Warden Expressions (Warden)",
-      "engPages": "88-90"
+      "engPages": "88"
     },
     {
       "french": "Fainéant",
@@ -735,7 +735,7 @@
       "french": "Fidèle serviteur",
       "frenchPages": "126",
       "eng": "Loyal Servant",
-      "engPages": "121-122"
+      "engPages": "121"
     },
     {
       "french": "Fléau de l'Ombre",
@@ -807,7 +807,7 @@
       "french": "Foulée de velours",
       "frenchPages": "90",
       "eng": "Trackless Steps (Wanderer)",
-      "engPages": "83-84"
+      "engPages": "83"
     },
     {
       "french": "Fourbe",
@@ -819,7 +819,7 @@
       "french": "Frère d'armes",
       "frenchPages": "76",
       "eng": "Warrior",
-      "engPages": "91-96"
+      "engPages": "91, 96"
     },
     {
       "french": "Frère des ours",
@@ -861,7 +861,7 @@
       "french": "Garde royale",
       "frenchPages": "104",
       "eng": "King's Guard (Rider)",
-      "engPages": "114-115"
+      "engPages": "114"
     },
     {
       "french": "Gardien des portes",
@@ -879,7 +879,7 @@
       "french": "Gardiens Intrépides",
       "frenchPages": "105",
       "eng": "Dauntless Guardians (Dunedain)",
-      "engPages": "103-104"
+      "engPages": "103"
     },
     {
       "french": "Grand parmi les Sages",
@@ -909,7 +909,7 @@
       "french": "Guérir de la corruption",
       "frenchPages": "200",
       "eng": "Heal Corruption (Undertaking)",
-      "engPages": "200-201"
+      "engPages": "200"
     },
     {
       "french": "Guérison améliorée",
@@ -963,7 +963,7 @@
       "french": "Hanté",
       "frenchPages": "127",
       "eng": "Harrowed, The",
-      "engPages": "129-131"
+      "engPages": "129"
     },
     {
       "french": "Hanté optionnel : Conteur",
@@ -1009,9 +1009,9 @@
     },
     {
       "french": "Herbes Médicinales",
-      "frenchPages": "73,113",
+      "frenchPages": "73, 113",
       "eng": "Healing herbs (Scholar), Herbal Remedies (Woodman)",
-      "engPages": "67-68, 113"
+      "engPages": "67, 113"
     },
     {
       "french": "Héritage culturel",
@@ -1029,13 +1029,13 @@
       "french": "Héritier déchu",
       "frenchPages": "129",
       "eng": "Fallen Scion",
-      "engPages": "127-129"
+      "engPages": "127"
     },
     {
       "french": "Historiques",
       "frenchPages": "25,12",
       "eng": "Backgrounds",
-      "engPages": "25, 119-143"
+      "engPages": "25, 119"
     },
     {
       "french": "Homme du Roi",
@@ -1047,7 +1047,7 @@
       "french": "Hommes des Bois des Terres Sauvages",
       "frenchPages": "16, 54, 160, 214",
       "eng": "Woodmen of Wilderland",
-      "engPages": "16, 57-58"
+      "engPages": "16, 57"
     },
     {
       "french": "Indifférent",
@@ -1173,13 +1173,13 @@
       "french": "Lanterne du gardien",
       "frenchPages": "159",
       "eng": "Gatekeeper's Lantern (Bree-man)",
-      "engPages": "159-60"
+      "engPages": "159, 60"
     },
     {
       "french": "Las de ce Monde",
       "frenchPages": "130",
       "eng": "World Weary",
-      "engPages": "141-143"
+      "engPages": "141"
     },
     {
       "french": "Las de ce Monde Optionnel : Appel de la Mer (Elfes uniquement)",
@@ -1209,7 +1209,7 @@
       "french": "Les Façons des Terres Sauvages",
       "frenchPages": "89",
       "eng": "Ways of the Wild (Wanderer)",
-      "engPages": "82-83"
+      "engPages": "82"
     },
     {
       "french": "Les Hérauts",
@@ -1227,7 +1227,7 @@
       "french": "Lié par le Serment",
       "frenchPages": "134",
       "eng": "Oathsworn",
-      "engPages": "136-138"
+      "engPages": "136"
     },
     {
       "french": "Ami Dévoué",
@@ -1245,7 +1245,7 @@
       "french": "Lieux Sinistrés",
       "frenchPages": "181",
       "eng": "Blighted Places",
-      "engPages": "181-182"
+      "engPages": "181"
     },
     {
       "french": "Lointaines rumeurs",
@@ -1263,7 +1263,7 @@
       "french": "Mage",
       "frenchPages": "133",
       "eng": "Magician, The (Background)",
-      "engPages": "135-136"
+      "engPages": "135"
     },
     {
       "french": "Mage optionnel : Guérisseur",
@@ -1303,9 +1303,9 @@
     },
     {
       "french": "Maître d'armes",
-      "frenchPages": "80,102",
+      "frenchPages": "80, 102",
       "eng": "Weaponmaster (Warrior), Swordmaster (Barding Virtue)",
-      "engPages": "95,101"
+      "engPages": "95, 101"
     },
     {
       "french": "Maître de chasse",
@@ -1381,9 +1381,9 @@
     },
     {
       "french": "Meurtrier",
-      "frenchPages": "81,188",
+      "frenchPages": "81, 188",
       "eng": "Lethal (Warrior), Murderous (Curse of Vengeance)",
-      "engPages": "96,186"
+      "engPages": "96, 186"
     },
     {
       "french": "Monde naturel",
@@ -1401,13 +1401,13 @@
       "french": "Nains du Mont Solitaire",
       "frenchPages": "14, 56, 161, 208",
       "eng": "Dwarves of the Lonely Mountain",
-      "engPages": "14, 38-40"
+      "engPages": "14, 38"
     },
     {
       "french": "Nénuphar",
-      "frenchPages": "73,155",
+      "frenchPages": "73, 155",
       "eng": "Water-lily",
-      "engPages": "68,155"
+      "engPages": "68, 155"
     },
     {
       "french": "Ni la fatigue, ni des milles d'aridité sans fin",
@@ -1419,7 +1419,7 @@
       "french": "Niveau de vie",
       "frenchPages": "31",
       "eng": "Standard of Living",
-      "engPages": "31,147"
+      "engPages": "31, 147"
     },
     {
       "french": "Bouclier Noir",
@@ -1449,7 +1449,7 @@
       "french": "Ombrépine",
       "frenchPages": "73",
       "eng": "Shadow-thorn",
-      "engPages": "67,155"
+      "engPages": "67, 155"
     },
     {
       "french": "Page",
@@ -1467,7 +1467,7 @@
       "french": "Paria",
       "frenchPages": "136",
       "eng": "Driven from Home",
-      "engPages": "124-126"
+      "engPages": "124"
     },
     {
       "french": "Paroles énigmatiques",
@@ -1485,7 +1485,7 @@
       "french": "Part d'Ombre",
       "frenchPages": "63",
       "eng": "Shadow Weakness",
-      "engPages": "184, 185-188"
+      "engPages": "184"
     },
     {
       "french": "Patrimoine",
@@ -1509,7 +1509,7 @@
       "french": "Phase de Communauté",
       "frenchPages": "27",
       "eng": "Fellowship Phase",
-      "engPages": "27, 196-202"
+      "engPages": "27, 196"
     },
     {
       "french": "Pied Marin",
@@ -1533,13 +1533,13 @@
       "french": "Pitoyable et débraillé",
       "frenchPages": "122",
       "eng": "Pathetic and Bedraggled (Reluctant Adventurer)",
-      "engPages": "138-139"
+      "engPages": "138"
     },
     {
       "french": "Plantes aromatiques",
       "frenchPages": "113",
       "eng": "Fragrant Weeds (Woodman)",
-      "engPages": "115-116"
+      "engPages": "115"
     },
     {
       "french": "Plus dur que l'acier",
@@ -1555,9 +1555,9 @@
     },
     {
       "french": "Points de vie",
-      "frenchPages": "",
+      "frenchPages": "1",
       "eng": "Hit Points",
-      "engPages": ""
+      "engPages": "1"
     },
     {
       "french": "Poltron",
@@ -1581,7 +1581,7 @@
       "french": "Prémonition",
       "frenchPages": "127",
       "eng": "Foreknowledge (The Harrowed)",
-      "engPages": "129-130"
+      "engPages": "129"
     },
     {
       "french": "Prescience ancestrale",
@@ -1605,13 +1605,13 @@
       "french": "Promis au Trépas",
       "frenchPages": "138",
       "eng": "Doomed to Die",
-      "engPages": "122-124"
+      "engPages": "122"
     },
     {
       "french": "Prospère",
       "frenchPages": "148",
       "eng": "Prosperous",
-      "engPages": "148-149"
+      "engPages": "148"
     },
     {
       "french": "Protecteur",
@@ -1711,15 +1711,15 @@
     },
     {
       "french": "Robuste",
-      "frenchPages": "81,101",
+      "frenchPages": "81, 101",
       "eng": "Enduring (Warrior), Sturdy (Open Virtue)",
-      "engPages": "96, 100-101"
+      "engPages": "96, 100"
     },
     {
       "french": "Rôdeur du Nord",
       "frenchPages": "19",
       "eng": "Rangers of the North",
-      "engPages": "18, 19, 36-37, 49, 104"
+      "engPages": "18, 36, 49, 104"
     },
     {
       "french": "Royaume Sylvestre",
@@ -1731,7 +1731,7 @@
       "french": "Royauté révélée",
       "frenchPages": "106",
       "eng": "Royalty Revealed (Dunedain)",
-      "engPages": "104-105"
+      "engPages": "104"
     },
     {
       "french": "Rumeurs de la terre",
@@ -1761,7 +1761,7 @@
       "french": "Savoir ancestral",
       "frenchPages": "75",
       "eng": "Ancient Lore (Scholar)",
-      "engPages": "68-69"
+      "engPages": "68"
     },
     {
       "french": "Savoir Disparate",
@@ -1867,15 +1867,15 @@
     },
     {
       "french": "Sorcelle",
-      "frenchPages": "73,155",
+      "frenchPages": "73, 155",
       "eng": "Hagweed",
-      "engPages": "67, 154-155"
+      "engPages": "67, 154"
     },
     {
       "french": "Sorts brisés",
       "frenchPages": "117",
       "eng": "Broken Spells (Dwarf)",
-      "engPages": "105-106"
+      "engPages": "105"
     },
     {
       "french": "Sorts d'interdiction et d'exclusion",
@@ -1893,7 +1893,7 @@
       "french": "Sorts de secrets",
       "frenchPages": "117",
       "eng": "Spells of Secrecy (Dwarf)",
-      "engPages": "105-106"
+      "engPages": "105"
     },
     {
       "french": "Soulagement des fardeaux",
@@ -1915,9 +1915,9 @@
     },
     {
       "french": "Style de combat",
-      "frenchPages": "77,91",
+      "frenchPages": "77, 91",
       "eng": "Fighting Style (Wanderer, Warrior)",
-      "engPages": "83,92"
+      "engPages": "83, 92"
     },
     {
       "french": "Style renforcé",
@@ -1935,7 +1935,7 @@
       "french": "Sursaut d'activité",
       "frenchPages": "78",
       "eng": "Action Surge (Warrior)",
-      "engPages": "92-93"
+      "engPages": "92"
     },
     {
       "french": "Suspicieux",
@@ -2007,13 +2007,13 @@
       "french": "Trait distinctif",
       "frenchPages": "120",
       "eng": "Distinctive Quality",
-      "engPages": "121-122"
+      "engPages": "121"
     },
     {
       "french": "Traqué par l'Ombre",
       "frenchPages": "139",
       "eng": "Hunted by the Shadow",
-      "engPages": "131-133"
+      "engPages": "131"
     },
     {
       "french": "Traque",
@@ -2037,7 +2037,7 @@
       "french": "Tristement Célèbre",
       "frenchPages": "137",
       "eng": "Infamous (Warrior, Driven from Home)",
-      "engPages": "96,124"
+      "engPages": "96, 124"
     },
     {
       "french": "Tueur de l'Ombre",
@@ -2085,7 +2085,7 @@
       "french": "Vagabond",
       "frenchPages": "88",
       "eng": "Wanderer",
-      "engPages": "81-85"
+      "engPages": "81"
     },
     {
       "french": "Vengeur",
@@ -2097,7 +2097,7 @@
       "french": "Vertus communes",
       "frenchPages": "100",
       "eng": "Open Virtues",
-      "engPages": "100-101"
+      "engPages": "100"
     },
     {
       "french": "Vicieuse",
@@ -2115,7 +2115,7 @@
       "french": "Vigilance Naturelle",
       "frenchPages": "114",
       "eng": "Natural Watchfulness (Wanderer, Woodman Virtue)",
-      "engPages": "83,117"
+      "engPages": "83, 117"
     },
     {
       "french": "Vigilance",
@@ -2127,7 +2127,7 @@
       "french": "Ville du Lac",
       "frenchPages": "16",
       "eng": "Lake-town",
-      "engPages": "16-50"
+      "engPages": "16, 50"
     },
     {
       "french": "Virtuosités martiales",
@@ -2151,7 +2151,7 @@
       "french": "Voies vengeresses",
       "frenchPages": "96",
       "eng": "Slayer Path (Slayer)",
-      "engPages": "73-74"
+      "engPages": "73"
     },
     {
       "french": "Voir l'invisible",
@@ -2287,9 +2287,9 @@
     },
     {
       "french": "Combat à deux armes",
-      "frenchPages": "77,91",
+      "frenchPages": "77, 91",
       "eng": "Two-Weapon Fighting (Warrior, Wanderer)",
-      "engPages": "77,91"
+      "engPages": "77, 91"
     },
     {
       "french": "Armes à deux mains",
@@ -2325,7 +2325,7 @@
       "french": "Amitiés Durables",
       "frenchPages": "131",
       "eng": "Seasoned Connections (World Weary)",
-      "engPages": "141-142"
+      "engPages": "141"
     },
     {
       "french": "Appel de la Mer",
@@ -2715,7 +2715,7 @@
       "french": "L'influence de l'Ombre",
       "frenchPages": "172",
       "eng": "A Place Touched by the Shadow",
-      "engPages": "171-172"
+      "engPages": "171"
     },
     {
       "french": "L'Ennemi est sorti de sa tanière",
