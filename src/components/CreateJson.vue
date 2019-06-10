@@ -2,9 +2,9 @@
     <div class="create-json">
       <textarea cols="100" rows="5" v-model="text" id="normalText" type="text"/>
       <!-- <div class="display-text">{{text}}</div> -->
-      <div v-if="text">
-        <p class="display-text"  v-for="(string, index) in formattedText" :key="index">
-          {{string}}
+      <div class="text" v-if="text">
+        <p class="paragraph"  v-for="(paragraph, index) in formattedText" :key="index">
+          {{paragraph}}
         </p>
       </div>
       <!-- <label for="title">Titre :</label>
@@ -79,15 +79,35 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped >
   .create-json {
     /* display: flex; */
   }
-  .display-text {
+
+  textarea {
+    display: block;
     width: 90%;
+    margin:auto;
+  }
+
+  .text {
+    margin: 10px auto;
+    width: 90%;
+    height: 70vh;
+    overflow: auto;
+    border : 2px solid black;
+  }
+  .paragraph {
+    width: 95%;
     height: auto;
+    border: 1px solid lightgray;
+    margin: 10px auto 10px;
+    padding: 4px 4px 4px 4px;
+  }
+
+  .paragraph:hover {
     border: 1px solid black;
-    margin: 0 0 5px;
+    background : rgb(245, 174, 68);
   }
 
 </style>
