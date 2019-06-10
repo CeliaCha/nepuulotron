@@ -26,6 +26,15 @@ export default {
   props: {
     data: Object
   },
+  created: function () {
+    document.body.addEventListener('mouseup', this.getSelectedText)
+    // document.addEventListener('selectionchange', () => {
+    //   console.log(document.getSelection().toString())
+    // })
+  },
+  destroyed: function () {
+    document.body.removeEventListener('mouseup', this.getSelectedText)
+  },
   mounted () {
     console.log('App mounted!')
     if (localStorage.getItem('json')) this.json = JSON.parse(localStorage.getItem('json'))
@@ -42,19 +51,22 @@ export default {
     }
   },
   methods: {
-    updateStrings (value) {
-      console.log(value)
-      this.strings = value
-    },
-    addElement () {
-      const object = {}
-      object.title = this.title
-      object.imageUrl = this.imageUrl
-      object.strings = this.strings
-      this.json.push(object)
-      this.title = ''
-      this.imageUrl = ''
-      this.strings = []
+    // updateStrings (value) {
+    //   console.log(value)
+    //   this.strings = value
+    // },
+    // addElement () {
+    //   const object = {}
+    //   object.title = this.title
+    //   object.imageUrl = this.imageUrl
+    //   object.strings = this.strings
+    //   this.json.push(object)
+    //   this.title = ''
+    //   this.imageUrl = ''
+    //   this.strings = []
+    // },
+    getSelectedText () {
+      console.log(document.getSelection().toString())
     },
     addJson () {
       let blob = new Blob([JSON.stringify(this.json, null, 2)], { type: 'application/json' })
