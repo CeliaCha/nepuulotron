@@ -1,6 +1,11 @@
 /* eslint-disable no-new */
 import Vue from 'vue'
 import App from './App.vue'
+import VueRouter from 'vue-router'
+import CreateJson from './components/CreateJson.vue'
+import Home from './components/Home.vue'
+
+Vue.use(VueRouter)
 
 // const swName = 'service-worker.js'
 // if ('serviceWorker' in navigator) {
@@ -15,7 +20,16 @@ import App from './App.vue'
 //   })
 // }
 
+const router = new VueRouter({
+  routes: [
+    { path: '/', component: Home },
+    { path: '/home', component: Home },
+    { path: '/createjson', component: CreateJson },
+  ]
+})
+
 new Vue({
   el: '#app',
+  router,
   render: h => h(App)
 })

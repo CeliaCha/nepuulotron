@@ -20,6 +20,8 @@
     "pdfjs-dist": "^2.0.943",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.3",
+    "vue-router": "^3.0.6",
+    "vue-selectable": "^0.4.5",
     "vue-simple-suggest": "^1.9.5"
   },
   "devDependencies": {
