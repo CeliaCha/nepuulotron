@@ -2,10 +2,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
+import selection from 'vue-text-selection'
 import CreateJson from './components/CreateJson.vue'
 import Home from './components/Home.vue'
 
 Vue.use(VueRouter)
+Vue.directive('selection', selection)
 
 // const swName = 'service-worker.js'
 // if ('serviceWorker' in navigator) {

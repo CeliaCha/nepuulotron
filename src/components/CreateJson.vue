@@ -1,13 +1,20 @@
 <template>
-    <div>
-      <label for="title">Titre :</label>
+    <div class="create-json">
+      <textarea cols="100" rows="5" v-model="text" id="normalText" type="text"/>
+      <!-- <div class="display-text">{{text}}</div> -->
+      <div v-if="text">
+        <p class="display-text"  v-for="(string, index) in formattedText" :key="index">
+          {{string}}
+        </p>
+      </div>
+      <!-- <label for="title">Titre :</label>
       <input v-model="title" id="title" type="text"/>
       <label for="url">Image :</label>
       <input v-model="imageUrl" id="url" type="text"/>
       <button @click="addElement">OK</button>
       <button @click="addJson">Create Json</button>
       <a v-if="displayUploadJson" :href="jsonUrl" download>Upload json</a>
-      <AddString @add-string="updateStrings"/>
+      <AddString @add-string="updateStrings"/> -->
     </div>
 </template>
 
@@ -25,6 +32,7 @@ export default {
   },
   data () {
     return {
+      text: '',
       title: '',
       imageUrl: '',
       strings: [],
@@ -54,6 +62,11 @@ export default {
       this.displayUploadJson = true
     }
   },
+  computed: {
+    formattedText () {
+      return this.text.split(/\r\n|\n\r|\n|\r/g).filter(item => item.match(/\S/))
+    }
+  },
   watch: {
     json: {
       handler () {
@@ -67,5 +80,14 @@ export default {
 </script>
 
 <style scoped>
+  .create-json {
+    /* display: flex; */
+  }
+  .display-text {
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 0 5px;
+  }
 
 </style>

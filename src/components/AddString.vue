@@ -25,6 +25,12 @@ export default {
   // props: [
   //   'subStrings'
   // ],
+  created: function () {
+    window.addEventListener('mousemove', this.move)
+  },
+  destroyed: function () {
+    window.removeEventListener('mousemove', this.move)
+  },
   data () {
     return {
       strings: '',
